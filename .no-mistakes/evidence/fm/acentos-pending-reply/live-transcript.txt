@@ -1,0 +1,152 @@
+Validação pela interface real bin/fm-send.sh em ambiente descartável.
+O terminal receptor usou tmux e cat. Nenhum modelo de linguagem foi iniciado.
+O envio, a caixa de entrada e os registros de resposta usaram o código real do produto.
+
+Versão anterior: no faa a correo
+
+portuguese / C
+Entrada: "não faça a correção"
+Resumo persistido: não faça a correção
+Caracteres: 19
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=24c7c09e9abbfec2 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=24c7c09e9abbfec2. Original request: não faça a correção
+
+controls / C
+Entrada: " \u0001não\tfaça\r\na\u001b correção "
+Resumo persistido: não faça  a correção
+Caracteres: 20
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=a904645b766b8a8a REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=a904645b766b8a8a. Original request: não faça  a correção
+
+exact-limit / C
+Entrada: "çççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç"
+Resumo persistido: çççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç
+Caracteres: 120
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=35c480564ac46331 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=35c480564ac46331. Original request: çççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç
+
+over-limit / C
+Entrada: "ççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç"
+Resumo persistido: ççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç...
+Caracteres: 120
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=7747d8d793b3cdfc REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=7747d8d793b3cdfc. Original request: ççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç...
+
+mixed-multibyte / C
+Entrada: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaç界😀não faça a correção"
+Resumo persistido: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaç界...
+Caracteres: 120
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=497747e5d28147ff REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=497747e5d28147ff. Original request: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaç界...
+
+ascii / C
+Entrada: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+Resumo persistido: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...
+Caracteres: 120
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=995a33747bb86722 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=995a33747bb86722. Original request: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...
+
+prefix / C
+Entrada: "[fm-from-firstmate]⁣corr=0123456789abcdef não faça a correção"
+Resumo persistido: não faça a correção
+Caracteres: 19
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=322d4b001ee2ad76 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=322d4b001ee2ad76. Original request: não faça a correção
+
+portuguese / en_US.UTF-8
+Entrada: "não faça a correção"
+Resumo persistido: não faça a correção
+Caracteres: 19
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=7fac23441ef63009 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=7fac23441ef63009. Original request: não faça a correção
+
+controls / en_US.UTF-8
+Entrada: " \u0001não\tfaça\r\na\u001b correção "
+Resumo persistido: não faça  a correção
+Caracteres: 20
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=0a50e42154ff21e4 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=0a50e42154ff21e4. Original request: não faça  a correção
+
+exact-limit / en_US.UTF-8
+Entrada: "çççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç"
+Resumo persistido: çççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç
+Caracteres: 120
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=99d950d5ab66c6c4 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=99d950d5ab66c6c4. Original request: çççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç
+
+over-limit / en_US.UTF-8
+Entrada: "ççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç"
+Resumo persistido: ççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç...
+Caracteres: 120
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=78fb53d4411c94da REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=78fb53d4411c94da. Original request: ççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç...
+
+mixed-multibyte / en_US.UTF-8
+Entrada: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaç界😀não faça a correção"
+Resumo persistido: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaç界...
+Caracteres: 120
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=7908a8dd75da9083 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=7908a8dd75da9083. Original request: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaç界...
+
+ascii / en_US.UTF-8
+Entrada: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+Resumo persistido: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...
+Caracteres: 120
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=989089a4faea90c0 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=989089a4faea90c0. Original request: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...
+
+prefix / en_US.UTF-8
+Entrada: "[fm-from-firstmate]⁣corr=0123456789abcdef não faça a correção"
+Resumo persistido: não faça a correção
+Caracteres: 19
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=c38a635535da60dc REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=c38a635535da60dc. Original request: não faça a correção
+
+portuguese / pt_BR.UTF-8
+Entrada: "não faça a correção"
+Resumo persistido: não faça a correção
+Caracteres: 19
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=83d927f83d7b8ce9 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=83d927f83d7b8ce9. Original request: não faça a correção
+
+controls / pt_BR.UTF-8
+Entrada: " \u0001não\tfaça\r\na\u001b correção "
+Resumo persistido: não faça  a correção
+Caracteres: 20
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=811225473a4d358f REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=811225473a4d358f. Original request: não faça  a correção
+
+exact-limit / pt_BR.UTF-8
+Entrada: "çççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç"
+Resumo persistido: çççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç
+Caracteres: 120
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=8d523d1f0629b8a5 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=8d523d1f0629b8a5. Original request: çççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç
+
+over-limit / pt_BR.UTF-8
+Entrada: "ççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç"
+Resumo persistido: ççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç...
+Caracteres: 120
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=374e058434c7ba51 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=374e058434c7ba51. Original request: ççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç...
+
+mixed-multibyte / pt_BR.UTF-8
+Entrada: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaç界😀não faça a correção"
+Resumo persistido: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaç界...
+Caracteres: 120
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=48716eea3571fff5 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=48716eea3571fff5. Original request: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaç界...
+
+ascii / pt_BR.UTF-8
+Entrada: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+Resumo persistido: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...
+Caracteres: 120
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=a3ee832e4e11290a REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=a3ee832e4e11290a. Original request: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...
+
+prefix / pt_BR.UTF-8
+Entrada: "[fm-from-firstmate]⁣corr=0123456789abcdef não faça a correção"
+Resumo persistido: não faça a correção
+Caracteres: 19
+Estado: awaiting_report
+Mensagem de recuperação: [fm-from-firstmate]⁣corr=ac2c120b7fe91a56 REPOST REQUIRED: previous marked request had no correlated parent report. Reply on the parent status channel including corr=ac2c120b7fe91a56. Original request: não faça a correção

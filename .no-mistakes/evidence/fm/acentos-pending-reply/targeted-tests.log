@@ -1,0 +1,198 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-wake-lib.sh: line 114: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - normal correlated reply resolves once (idempotent)
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - completed turn with no report triggers exactly one recovery
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - recovery never pokes a mate waiting on its own decision, and runs once it closes
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - recovery sends during an open decision when config/wait-no-turns is absent
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - recovery grace is measured from the request turn's completion, not delivery
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - one fresh status read immediately before firing catches a just-landed reply, any verb
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - a resolve that fails after committing resolved still blocks repost and escalation
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - missed-report escalation grace is measured from the recovery turn's completion
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - recovery attempts reconcile without reinjection
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - recovery reply resolves the original expectation
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - second missed turn escalates once and remains durable
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1246: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1234: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1235: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1236: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1234: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1235: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1236: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1657: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1657: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1246: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1234: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1235: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1236: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1234: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1235: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1236: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1246: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1246: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1234: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1235: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1236: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1234: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1235: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1236: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1657: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1657: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1246: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1234: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1235: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1236: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1234: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1235: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1236: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1246: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1246: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1234: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1235: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1236: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1234: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1235: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1236: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1657: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1657: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1246: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1234: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1235: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-classify-lib.sh: line 1236: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - escalations and replies wake; the home's own escalation close stays quiet
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - failed escalation publication remains retryable and publishes once
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - legacy escalation closes under the shared default key
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - legacy escalation cannot close an unrelated default-key decision
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - foreign correlated blocker cannot impersonate a pending-reply escalation
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - concurrent resolution closes one keyed escalation exactly once
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - concurrent escalation yields to a late correlated reply
+ok - transport success cannot masquerade as reply success
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - undelivered records remain immutable across scan paths
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - delivery confirmation fallback reconciles durably
+ok - delivery confirmation serializes with reconciliation
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - unrelated events and stale correlation ids cannot resolve
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - another mate's echoed token cannot resolve a request
+ok - restart preserves expectation and exact parent destination
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - wrong-home reports are detected but do not silently acknowledge
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - direct unmarked captain input creates no expectation
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - fm-send marked secondmate path creates pending and embeds corr
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - status-pointed document resolves the expectation
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-parent-channel-lib.sh: line 91: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - optional helper report resolves without being required for correctness
+ok - backend busy/idle observation covers Pi/Claude paths without conversation scrape
+ok - tmux and zellij unknown states use bounded capture fallback
+ok - pending replies scope Kimi capture fallback by recorded harness
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - tick skips terminal records and reuses target observations
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - the tick leaves settled records alone and still does the selected records' work
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - correlations are reused only for matching open task records
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - tick end-to-end: miss -> one recovery -> escalate -> durable
+ok - failed transport discards undelivered expectation only
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 1050: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - a remote repost waits for the reply channel and still fires on a real miss
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - a mirrored correlated remote reply resolves without any repost
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-parent-channel-lib.sh: line 91: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LC_ALL = "C.UTF-8",
+	LC_CTYPE = "C.UTF-8",
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-parent-channel-lib.sh: line 91: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-parent-channel-lib.sh: line 91: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - same-basename self-home corr= is restated onto the parent channel and resolves
+ok - same-basename reply resolves at the recovery failure boundary
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - a child-file mate-home sighting is not copied and still escalates
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-parent-channel-lib.sh: line 91: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - mechanical helper writes the parent channel from verb, corr, and note
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - remote parent-replies.status is not classified as wrong-home
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - local parent-replies.status remains wrong-home evidence
+/Users/alex/.no-mistakes/worktrees/577f711a0daa/01M5G38E8XTPHS7HRXVRZSZGPY/bin/fm-pending-reply-lib.sh: line 626: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - an escalated correlation stays retryable only while undelivered
+ok - a same-kind escalation after an operator close opens the decision again
+tests/fm-pending-reply.test.sh: line 2114: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+tests/fm-pending-reply.test.sh: line 2114: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+tests/fm-pending-reply.test.sh: line 2114: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8): No such file or directory
+ok - the summary keeps accented letters, drops control characters, and caps by character
+ok - all pending-reply tests passed
